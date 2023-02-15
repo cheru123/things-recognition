@@ -1,0 +1,52 @@
+<html>
+    <head> 
+        <title>
+            IMAGE RECOGNITION
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    </head>
+    <body>
+        <h1>
+            IMAGE RECOGNITION
+        </h1>
+        <h2>
+            model is trained to identify :-
+            <br>
+            fan
+            <hr>
+            watch
+            <hr>
+            pen 
+            <hr>
+            pencil
+            <hr>
+            mobile phone
+            <hr>
+            charger
+            <hr>
+
+        </h2>
+        <h3>
+            webcam view
+        </h3>
+        <div id="d1">
+<br>
+        </div>
+        <br>
+        <button onclick="take_snapshot()">capture image</button>
+        <div id="d2">
+
+        </div>
+        <br>
+        <button>identify image</button>
+        <h1>
+            object:<span id="s1"></span>
+
+        </h1>
+        <h1>
+            accuracy:<span id="s2"></span>
+        </h1>
+    <script src="main.js"></script>
+    </body>
+</html>

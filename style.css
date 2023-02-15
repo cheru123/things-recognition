@@ -1,0 +1,11 @@
+body{
+
+    background:linear-gradient(teal,aqua);
+    text-align: center;
+
+}
+button{
+
+    background-color: purple;
+    color: aliceblue;
+}
